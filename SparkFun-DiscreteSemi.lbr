@@ -1838,6 +1838,7 @@ Adjustable shunt regulator</description>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="TRANS-08049"/>
+<attribute name="RS" value="816-0582"/>
 <attribute name="VALUE" value="600mA/40V"/>
 </technology>
 </technologies>
