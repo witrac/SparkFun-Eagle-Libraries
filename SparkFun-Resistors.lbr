@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -2365,6 +2366,7 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="RES-07857"/>
+<attribute name="RS" value="901-3581"/>
 <attribute name="VALUE" value="4.7k"/>
 </technology>
 </technologies>
@@ -2483,6 +2485,17 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <technology name="">
 <attribute name="PROD_ID" value="RES-08717"/>
 <attribute name="VALUE" value="510"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="RS" value="901-3550"/>
 </technology>
 </technologies>
 </device>
@@ -2938,6 +2951,7 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="RES-07856"/>
+<attribute name="RS" value="213-2266"/>
 <attribute name="VALUE" value="1k"/>
 </technology>
 </technologies>
@@ -3103,6 +3117,7 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="RES-00824"/>
+<attribute name="RS" value="125-1173"/>
 <attribute name="VALUE" value="10k"/>
 </technology>
 </technologies>
@@ -4066,6 +4081,24 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <technology name="">
 <attribute name="PROD_ID" value="RES-13768"/>
 <attribute name="VALUE" value="750K"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="91OHM">
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="RS" value="679-0780"/>
 </technology>
 </technologies>
 </device>
