@@ -1814,6 +1814,7 @@ CAP-09321</description>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CAP-00810"/>
+<attribute name="RS" value="264-4646"/>
 <attribute name="VALUE" value="0.1uF"/>
 </technology>
 </technologies>
