@@ -1538,7 +1538,7 @@ Supply: 1.65V to 5.5V
 <technologies>
 <technology name="HC">
 <attribute name="PROD_ID" value="IC-08252" constant="no"/>
-<attribute name="RS" value="662-2729" constant="no"/>
+<attribute name="RS" value="662-2570" constant="no"/>
 <attribute name="VALUE" value="CD74HC4067SM96" constant="no"/>
 </technology>
 </technologies>
