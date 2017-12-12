@@ -2249,6 +2249,7 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="RES-00818"/>
+<attribute name="RS" value="213-2200"/>
 <attribute name="VALUE" value="330"/>
 </technology>
 </technologies>
